@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly manifestVersion="1.0" xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity version="1.0.0.5" name="GecoMouli.exe" publicKeyToken="bdb873ba46d60f18" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="GecoMouli" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="GecoMouli.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- Options du manifeste de contrôle de compte d'utilisateur
+             Si vous souhaitez modifier le niveau du contrôle de compte d'utilisateur Windows, remplacez le nœud 
+             requestedExecutionLevel par l'une des propositions suivantes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            La spécification du nœud requestedExecutionLevel désactivera la virtualisation de fichiers et du Registre.
+            Si vous souhaitez utiliser la virtualisation de fichiers et du Registre pour la compatibilité 
+            descendante, supprimez le noeud requestedExecutionLevel.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GecoMouli.exe" size="55296">
+      <assemblyIdentity name="GecoMouli" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>35YHupeKWmvyGWUBZvkzYmpXWlg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- Une liste de toutes les versions de Windows avec laquelle cette application peut fonctionner. Windows sélectionnera automatiquement l'environnement le plus compatible.-->
+      <!-- Si votre application est conçue pour fonctionner avec Windows 7, supprimez les commentaires du nœud supportedOS suivant-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=METRAWARE\jmonclard" issuerKeyHash="bce14106a33f0f4fa00ec6e37c02f431b4476551" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>PGE56WGMszqzK4k2xmsg9EdRatY=</DigestValue></Reference></SignedInfo><SignatureValue>RceKIUMvR+AQgFftyMnD/IuexTidAmP8DbQhXU7Jp9S1Nv0ETb+I3MbwfebDBkSBPB/MDLI97+W2F3Q1gmY2y2QI6SlKk3VISnvo9LWJSK0f3gXTBpypQT7S542GYGCe9+RNyCsoR8p62kp+xeuPHY3CrcutxVTx+8WGK+nHvfU=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>t5DpjY+W2dapbaYs/ceZ/cLa4RMhDT4tYRbW0bbCrTsy+C4bCRz/69YumdG2tpFIe/f7TQccXsDCjsdP8b+LRmpoVZ32+XQamdVSXfFZ8BOUJLNZ3yMDvpzon40FpGpV6rK2OjjxIelC71iLdTDCLIHtH5F4s4N+U2IpIZ/uCAU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d66a5147f4206bc636892bb33ab38c61e939613c" Description="" Url=""><as:assemblyIdentity version="1.0.0.5" name="GecoMouli.exe" publicKeyToken="bdb873ba46d60f18" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=METRAWARE\jmonclard</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>tVwMTa+viM1iYe8DQr47TkK0zZw=</DigestValue></Reference></SignedInfo><SignatureValue>fOIerncyKKjIl2/7LHmqYLQlp8iAZ1ugcm3ZETqfg3zd+3ZgfcXc/ZiYOCAk122Yu+N1cGkWFcyOlr0SymdsCrwvPgviYKETd4X5Fc0dheylgY3rty1o1+aQRwpgIXqgtiGIPIjtp+p+VPDxWZQinQXlEIc113gi73/x/xomHU0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>t5DpjY+W2dapbaYs/ceZ/cLa4RMhDT4tYRbW0bbCrTsy+C4bCRz/69YumdG2tpFIe/f7TQccXsDCjsdP8b+LRmpoVZ32+XQamdVSXfFZ8BOUJLNZ3yMDvpzon40FpGpV6rK2OjjxIelC71iLdTDCLIHtH5F4s4N+U2IpIZ/uCAU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB5TCCAU6gAwIBAgIQSWyI6FP9zpNACQMattCwxjANBgkqhkiG9w0BAQUFADAxMS8wLQYDVQQDHiYATQBFAFQAUgBBAFcAQQBSAEUAXABqAG0AbwBuAGMAbABhAHIAZDAeFw0xMzA2MTYyMTU2NDhaFw0xNDA2MTcwMzU2NDhaMDExLzAtBgNVBAMeJgBNAEUAVABSAEEAVwBBAFIARQBcAGoAbQBvAG4AYwBsAGEAcgBkMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC3kOmNj5bZ1qltpiz9x5n9wtrhEyENPi1hFtbRtsKtOzL4LhsJHP/r1i6Z0ba2kUh79/tNBxxewMKOx0/xv4tGamhVnfb5dBqZ1VJd8VnwE5Qks1nfIwO+nOifjQWkalXqsrY6OPEh6ULvWIt1MMIsge0fkXizg35TYikhn+4IBQIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAD23XWprFLVi4DwqG0c8NxeZ3j7bhn0spHUCSai91XTlShbqFWXyPZMLoOE1/dgNE5sn8exRv/FQfAkvpm9YnwO60HHIdoBk/nxurHdboq2fH4/tlKrDOM/J5ilH5lpRPrsMw84Y7EX+74ZlQWdDqKERl7A57Kk4UwDYvZR4hiva</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

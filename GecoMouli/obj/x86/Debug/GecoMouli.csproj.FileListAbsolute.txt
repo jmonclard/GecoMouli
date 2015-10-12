@@ -1,0 +1,13 @@
+C:\Users\jmonclard.METRAWARE\documents\visual studio 2010\Projects\GecoMouli\GecoMouli\bin\Debug\GecoMouli.exe
+C:\Users\jmonclard.METRAWARE\documents\visual studio 2010\Projects\GecoMouli\GecoMouli\bin\Debug\GecoMouli.pdb
+C:\Users\jmonclard.METRAWARE\documents\visual studio 2010\Projects\GecoMouli\GecoMouli\obj\x86\Debug\GecoMouli.FormGecoMouli.resources
+C:\Users\jmonclard.METRAWARE\documents\visual studio 2010\Projects\GecoMouli\GecoMouli\obj\x86\Debug\GecoMouli.Properties.Resources.resources
+C:\Users\jmonclard.METRAWARE\documents\visual studio 2010\Projects\GecoMouli\GecoMouli\obj\x86\Debug\GecoMouli.exe
+C:\Users\jmonclard.METRAWARE\documents\visual studio 2010\Projects\GecoMouli\GecoMouli\obj\x86\Debug\GecoMouli.pdb
+C:\Users\jmonclard.METRAWARE\documents\visual studio 2010\Projects\GecoMouli\GecoMouli\bin\Debug\GecoMouli.exe.manifest
+C:\Users\jmonclard.METRAWARE\documents\visual studio 2010\Projects\GecoMouli\GecoMouli\bin\Debug\GecoMouli.application
+C:\Users\jmonclard.METRAWARE\documents\visual studio 2010\Projects\GecoMouli\GecoMouli\obj\x86\Debug\GecoMouli.TrustInfo.xml
+C:\Users\jmonclard.METRAWARE\documents\visual studio 2010\Projects\GecoMouli\GecoMouli\obj\x86\Debug\GecoMouli.exe.manifest
+C:\Users\jmonclard.METRAWARE\documents\visual studio 2010\Projects\GecoMouli\GecoMouli\obj\x86\Debug\GecoMouli.application
+C:\Users\jmonclard.METRAWARE\Documents\Visual Studio 2010\Projects\GecoMouli\GecoMouli\obj\x86\Debug\GecoMouli.csprojResolveAssemblyReference.cache
+C:\Users\jmonclard.METRAWARE\Documents\Visual Studio 2010\Projects\GecoMouli\GecoMouli\obj\x86\Debug\GecoMouli.csproj.GenerateResource.Cache
